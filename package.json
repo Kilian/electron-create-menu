@@ -1,0 +1,23 @@
+{
+  "name": "electron-menu",
+  "version": "1.0.0",
+  "description": "provides a default menu for your electron applications, with convenience functions for multiplatform use and i18n.",
+  "main": "index.js",
+  "files": [],
+  "keywords": [
+    "electron",
+    "menu",
+    "i18n",
+    "multiplatform",
+    "os"
+  ],
+  "author": "Kilian Valkhof",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kilian/electron-menu.git"
+  },
+  "dependencies": {
+    "electron": ">1"
+  }
+}
