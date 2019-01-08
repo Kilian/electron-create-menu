@@ -1,4 +1,4 @@
-# Electron-menu
+# Electron-create-menu
 
 provides a default menu for your electron applications, with convenience functions for multiplatform use and i18n.
 
@@ -6,16 +6,16 @@ provides a default menu for your electron applications, with convenience functio
 
 ## Installation
 
-Install using `npm install electron-menu`.
+Install using `npm install electron-create-menu`.
 
 ## Usage
 
-Instead of importing Menu from `electron`, import it from `electron-menu`:
+Instead of importing Menu from `electron`, import it from `electron-create-menu`:
 
 ``` js
-import Menu from 'electron-menu';
+import Menu from 'electron-create-menu';
 // or
-const Menu = require('electron-menu');
+const Menu = require('electron-create-menu');
 ```
 
 To get a default menu with platform-appropriate menu items and submenus, call Menu like so:
@@ -26,8 +26,8 @@ Menu();
 ### Optional arguments
 Menu has two optional functions you can pass it
 
-* The first argument is the `callback` function, where you can further customise or edit the generated menu.
-* The second argument is the `i18n` functionwhere you can supply a function to use for translating the menu items.
+* The first argument is the `callback` function, where you can further edit (or replace) the generated menu.
+* The second argument is the `i18n` function where you can supply a function to use for translating the menu items.
 
 ```js
 Menu(callback, i18n);
@@ -103,7 +103,7 @@ Each item in your menu can have two new properties, `showOn` and `hideOn`. These
   { hideOn: ['win32', 'darwin'] }
 ```
 
-With these, you can adapt your menu to multiple platforms without having to maintain multiple menu templates. See the default template in `electron-menu.js` line 7 for an example of a consolidated template.
+With these, you can adapt your menu to multiple platforms without having to maintain multiple menu templates. See the [default template](https://github.com/Kilian/electron-create-menu/blob/master/index.js#L7) for an example of a consolidated template.
 
 You can also add a string or an array of strings as an argument to the separator function: `separator('darwin')`. The given value is interpreted as the value for `showOn`.
 
@@ -130,4 +130,4 @@ Menu((defaultMenu, separator) => {
 });
 ```
 ## License
-Electron-menu is ISC licensed.
+Electron-create-menu is ISC licensed.
