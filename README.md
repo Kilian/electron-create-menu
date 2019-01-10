@@ -23,6 +23,10 @@ To get a default menu with platform-appropriate menu items and submenus, call Me
 Menu();
 ```
 
+*Note:* This API has to be called after the `ready` event of `app` module.
+
+Menu always returns the menu object that `Menu.buildFromTemplate` creates, so you can access [instance methods](https://electronjs.org/docs/api/menu#instance-methods) on it.
+
 ### Optional arguments
 Menu has two optional functions you can pass it
 
