@@ -1,4 +1,4 @@
-# Electron-menu
+# Electron-create-menu [![npm](https://img.shields.io/npm/v/electron-create-menu.svg)](https://www.npmjs.com/package/electron-create-menu) [![npm-downloads](https://img.shields.io/npm/dm/electron-create-menu.svg)](https://www.npmjs.com/package/electron-create-menu) [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FKilian%2Felectron-create-menu.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2FKilian%2Felectron-create-menu?ref=badge_shield)
 
 provides a default menu for your electron applications, with convenience functions for multiplatform use and i18n.
 
@@ -6,16 +6,16 @@ provides a default menu for your electron applications, with convenience functio
 
 ## Installation
 
-Install using `npm install electron-menu`.
+Install using `npm install electron-create-menu`.
 
 ## Usage
 
-Instead of importing Menu from `electron`, import it from `electron-menu`:
+Instead of importing Menu from `electron`, import it from `electron-create-menu`:
 
 ``` js
-import Menu from 'electron-menu';
+import Menu from 'electron-create-menu';
 // or
-const Menu = require('electron-menu');
+const Menu = require('electron-create-menu');
 ```
 
 To get a default menu with platform-appropriate menu items and submenus, call Menu like so:
@@ -134,4 +134,4 @@ Menu((defaultMenu, separator) => {
 });
 ```
 ## License
-Electron-menu is ISC licensed.
+Electron-create-menu is ISC licensed.
