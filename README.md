@@ -1,4 +1,6 @@
 # Electron-menu
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FKilian%2Felectron-create-menu.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2FKilian%2Felectron-create-menu?ref=badge_shield)
+
 
 provides a default menu for your electron applications, with convenience functions for multiplatform use and i18n.
 
@@ -135,3 +137,6 @@ Menu((defaultMenu, separator) => {
 ```
 ## License
 Electron-menu is ISC licensed.
+
+
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FKilian%2Felectron-create-menu.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2FKilian%2Felectron-create-menu?ref=badge_large)
