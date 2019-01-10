@@ -30,7 +30,7 @@ Menu always returns the menu object that `Menu.buildFromTemplate` creates, so yo
 ### Optional arguments
 Menu has two optional functions you can pass it
 
-* The first argument is the `callback` function, where you can further customise or edit the generated menu.
+* The first argument is the `callback` function, where you can further edit (or replace) the generated menu.
 * The second argument is the `i18n` function where you can supply a function to use for translating the menu items.
 
 ```js
@@ -107,7 +107,7 @@ Each item in your menu can have two new properties, `showOn` and `hideOn`. These
   { hideOn: ['win32', 'darwin'] }
 ```
 
-With these, you can adapt your menu to multiple platforms without having to maintain multiple menu templates. See the default template in `electron-menu.js` line 7 for an example of a consolidated template.
+With these, you can adapt your menu to multiple platforms without having to maintain multiple menu templates. See the [default template](https://github.com/Kilian/electron-create-menu/blob/master/index.js#L7) for an example of a consolidated template.
 
 You can also add a string or an array of strings as an argument to the separator function: `separator('darwin')`. The given value is interpreted as the value for `showOn`.
 
