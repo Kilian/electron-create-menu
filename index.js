@@ -115,11 +115,13 @@ const filterMenu = list =>
     .filter(x => x);
 
 const electronMenu = (callback = passThrough, i18nFunc = passThrough) => {
-  Menu.setApplicationMenu(
-    Menu.buildFromTemplate(
-      filterMenu(callback(createTemplate(i18nFunc), SEPARATOR))
-    )
+  const createdMenu = Menu.buildFromTemplate(
+    filterMenu(callback(createTemplate(i18nFunc), SEPARATOR))
   );
+
+  Menu.setApplicationMenu(createdMenu);
+
+  return createdMenu;
 };
 
 module.exports = electronMenu;
