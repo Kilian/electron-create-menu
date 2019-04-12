@@ -16,8 +16,5 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/kilian/electron-create-menu.git"
-  },
-  "dependencies": {
-    "electron": ">1"
   }
 }
