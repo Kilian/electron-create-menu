@@ -135,3 +135,6 @@ Menu((defaultMenu, separator) => {
 ```
 ## License
 Electron-create-menu is ISC licensed.
+
+
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FKilian%2Felectron-create-menu.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2FKilian%2Felectron-create-menu?ref=badge_large)
