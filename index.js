@@ -22,7 +22,7 @@ const createTemplate = i18nFunc => [
   {
     label: i18nFunc("File"),
     hideOn: ["darwin"],
-    submenu: [{ role: "about" }, { role: "quit" }]
+    submenu: [{ role: "quit" }]
   },
   {
     label: i18nFunc("Edit"),
@@ -70,6 +70,7 @@ const createTemplate = i18nFunc => [
   },
   {
     role: "help",
+    showOn: ["darwin"],
     submenu: []
   }
 ];
