@@ -1,1 +1,14 @@
+v2.0.0
+
+* hide "about" menu item and "help" menu on non-mac platforms
+* introduce electron back as peerDependency
+
+v1.1.1
+
+* remove electron as depencency
+
+v1.1.0
+
+* Menu now returns the Electron menu instance
+
 v1.0.0 Inititial release
