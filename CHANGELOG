@@ -9,10 +9,10 @@ v2.0.0
 
 v1.1.1
 
-* remove electron as depencency
+* remove electron as dependency
 
 v1.1.0
 
 * Menu now returns the Electron menu instance
 
-v1.0.0 Inititial release
+v1.0.0 Initial release
