@@ -16,7 +16,8 @@ const createTemplate = i18nFunc => [
       { role: "hide" },
       { role: "hideothers" },
       { role: "unhide" },
-      SEPARATOR()
+      SEPARATOR(),
+      { role: "quit" }
     ]
   },
   {
@@ -108,7 +109,7 @@ const shouldShowItem = item => {
 const filterMenu = list =>
   list
     .map(item => {
-      if(item.submenu) {
+      if (item.submenu) {
         item.submenu = filterMenu(item.submenu);
       }
       return shouldShowItem(item) ? item : false;

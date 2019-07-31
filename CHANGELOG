@@ -1,3 +1,7 @@
+v3.0.0
+
+* Add missing quit menu item on macOs
+
 v2.0.0
 
 * hide "about" menu item and "help" menu on non-mac platforms
