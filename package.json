@@ -1,6 +1,6 @@
 {
   "name": "electron-create-menu",
-  "version": "2.0.0",
+  "version": "3.0.1",
   "description": "provides a default menu for your electron applications, with convenience functions for multiplatform use and i18n.",
   "main": "index.js",
   "files": [],

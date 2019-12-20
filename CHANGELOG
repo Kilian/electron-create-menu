@@ -1,3 +1,7 @@
+v3.0.1
+
+* updated electron@7 compatibility
+
 v3.0.0
 
 * Add missing quit menu item on macOs
