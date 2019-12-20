@@ -6,7 +6,7 @@ const passThrough = value => value;
 
 const createTemplate = i18nFunc => [
   {
-    label: app.getName(),
+    label: app.name,
     showOn: ["darwin"],
     submenu: [
       { role: "about" },
